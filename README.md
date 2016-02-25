@@ -1,4 +1,4 @@
-# react-native-toast
+# react-native-toast(abandon)
 
 ##What is it
 react-native-toast is a react native module to show toast like android, I use another ope-source project  [Toast](https://github.com/scalessec/Toast) to implement image cache.
