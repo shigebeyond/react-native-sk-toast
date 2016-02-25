@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91B849741B3D3DA7000C8B92 /* libReactNativeToast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B849681B3D3DA7000C8B92 /* libReactNativeToast.a */; };
+		91C3D0ED1B3D466000734765 /* SKToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C3D0EA1B3D466000734765 /* SKToastManager.m */; };
+		91C3D0EE1B3D466000734765 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C3D0EC1B3D466000734765 /* Toast+UIView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91B849751B3D3DA7000C8B92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91B849601B3D3DA7000C8B92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91B849671B3D3DA7000C8B92;
+			remoteInfo = "react-native-toast";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91B849661B3D3DA7000C8B92 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91B849681B3D3DA7000C8B92 /* libReactNativeToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B849731B3D3DA7000C8B92 /* ReactNativeToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B849791B3D3DA7000C8B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C3D0E91B3D466000734765 /* SKToastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKToastManager.h; sourceTree = "<group>"; };
+		91C3D0EA1B3D466000734765 /* SKToastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKToastManager.m; sourceTree = "<group>"; };
+		91C3D0EB1B3D466000734765 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		91C3D0EC1B3D466000734765 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		91C3D1081B3D497600734765 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91B849651B3D3DA7000C8B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B849701B3D3DA7000C8B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B849741B3D3DA7000C8B92 /* libReactNativeToast.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91B8495F1B3D3DA6000C8B92 = {
+			isa = PBXGroup;
+			children = (
+				91C3D1081B3D497600734765 /* UIKit.framework */,
+				91B8496A1B3D3DA7000C8B92 /* react-native-toast */,
+				91B849771B3D3DA7000C8B92 /* react-native-toastTests */,
+				91B849691B3D3DA7000C8B92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91B849691B3D3DA7000C8B92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B849681B3D3DA7000C8B92 /* libReactNativeToast.a */,
+				91B849731B3D3DA7000C8B92 /* ReactNativeToastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91B8496A1B3D3DA7000C8B92 /* react-native-toast */ = {
+			isa = PBXGroup;
+			children = (
+				91C3D0E91B3D466000734765 /* SKToastManager.h */,
+				91C3D0EA1B3D466000734765 /* SKToastManager.m */,
+				91C3D0EB1B3D466000734765 /* Toast+UIView.h */,
+				91C3D0EC1B3D466000734765 /* Toast+UIView.m */,
+			);
+			path = "react-native-toast";
+			sourceTree = "<group>";
+		};
+		91B849771B3D3DA7000C8B92 /* react-native-toastTests */ = {
+			isa = PBXGroup;
+			children = (
+				91B849781B3D3DA7000C8B92 /* Supporting Files */,
+			);
+			path = "react-native-toastTests";
+			sourceTree = "<group>";
+		};
+		91B849781B3D3DA7000C8B92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91B849791B3D3DA7000C8B92 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91B849671B3D3DA7000C8B92 /* ReactNativeToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B8497C1B3D3DA7000C8B92 /* Build configuration list for PBXNativeTarget "ReactNativeToast" */;
+			buildPhases = (
+				91B849641B3D3DA7000C8B92 /* Sources */,
+				91B849651B3D3DA7000C8B92 /* Frameworks */,
+				91B849661B3D3DA7000C8B92 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeToast;
+			productName = "react-native-toast";
+			productReference = 91B849681B3D3DA7000C8B92 /* libReactNativeToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		91B849721B3D3DA7000C8B92 /* ReactNativeToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B8497F1B3D3DA7000C8B92 /* Build configuration list for PBXNativeTarget "ReactNativeToastTests" */;
+			buildPhases = (
+				91B8496F1B3D3DA7000C8B92 /* Sources */,
+				91B849701B3D3DA7000C8B92 /* Frameworks */,
+				91B849711B3D3DA7000C8B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91B849761B3D3DA7000C8B92 /* PBXTargetDependency */,
+			);
+			name = ReactNativeToastTests;
+			productName = "react-native-toastTests";
+			productReference = 91B849731B3D3DA7000C8B92 /* ReactNativeToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B849601B3D3DA7000C8B92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Shige;
+				TargetAttributes = {
+					91B849671B3D3DA7000C8B92 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					91B849721B3D3DA7000C8B92 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 91B849631B3D3DA7000C8B92 /* Build configuration list for PBXProject "ReactNativeToast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91B8495F1B3D3DA6000C8B92;
+			productRefGroup = 91B849691B3D3DA7000C8B92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91B849671B3D3DA7000C8B92 /* ReactNativeToast */,
+				91B849721B3D3DA7000C8B92 /* ReactNativeToastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91B849711B3D3DA7000C8B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B849641B3D3DA7000C8B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C3D0EE1B3D466000734765 /* Toast+UIView.m in Sources */,
+				91C3D0ED1B3D466000734765 /* SKToastManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B8496F1B3D3DA7000C8B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91B849761B3D3DA7000C8B92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91B849671B3D3DA7000C8B92 /* ReactNativeToast */;
+			targetProxy = 91B849751B3D3DA7000C8B92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91B8497A1B3D3DA7000C8B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91B8497B1B3D3DA7000C8B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91B8497D1B3D3DA7000C8B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ReactNativeToast;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		91B8497E1B3D3DA7000C8B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ReactNativeToast;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		91B849801B3D3DA7000C8B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "react-native-toastTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ReactNativeToastTests;
+			};
+			name = Debug;
+		};
+		91B849811B3D3DA7000C8B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "react-native-toastTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ReactNativeToastTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91B849631B3D3DA7000C8B92 /* Build configuration list for PBXProject "ReactNativeToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B8497A1B3D3DA7000C8B92 /* Debug */,
+				91B8497B1B3D3DA7000C8B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B8497C1B3D3DA7000C8B92 /* Build configuration list for PBXNativeTarget "ReactNativeToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B8497D1B3D3DA7000C8B92 /* Debug */,
+				91B8497E1B3D3DA7000C8B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B8497F1B3D3DA7000C8B92 /* Build configuration list for PBXNativeTarget "ReactNativeToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B849801B3D3DA7000C8B92 /* Debug */,
+				91B849811B3D3DA7000C8B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B849601B3D3DA7000C8B92 /* Project object */;
+}
