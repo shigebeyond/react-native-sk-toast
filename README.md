@@ -14,7 +14,66 @@ react-native-toast is a react native module to show toast like android, I use an
 ![](https://raw.githubusercontent.com/shigebeyond/react-native-toast/master/add-a.png)
 5. Write this in index.ios.js / index.android.js
 ```javascript
-// var RCTNetworkImage = requireNativeComponent('RCTNetworkImageView', null);
-var RCTNetworkImage = requireNativeComponent('SKToastView', null);
+'use strict';
+
+var React = require('react-native');
+var {
+  AppRegistry,
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet
+} = React;
+var Toast = require('react-native-toast');
+var Screen = require('Dimensions').get('window');
+
+var nostalgia = React.createClass({
+  topToast: function(){
+    Toast.top('top toast');
+  },
+  centerToast: function(){
+    Toast.center('center toast');
+  },
+  bottomToast: function(){
+    Toast.bottom('bottom toast');
+  },
+  render: function(){
+    return (
+      <View style={styles.container}>
+        <TouchableOpacity style={styles.button} activeOpacity={1} onPress={this.topToast}>
+            <Text style={styles.txt}>top</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.button} activeOpacity={1} onPress={this.centerToast}>
+            <Text style={styles.txt}>center</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.button} activeOpacity={1} onPress={this.bottomToast}>
+            <Text style={styles.txt}>bottom</Text>
+        </TouchableOpacity>
+      </View>
+    )
+  }
+});
+
+
+var styles = StyleSheet.create({
+  container:{
+    flex:1,
+    alignItems: 'center',
+    justifyContent: 'space-around'
+  },
+  button: {
+    width: 70,
+    height: 30,
+    justifyContent: 'center',
+    backgroundColor: 'yellow',
+    borderColor: 'blue',
+    borderWidth: 3,
+    borderRadius: 5,
+  },
+  txt: {
+    textAlign: 'center'
+  }
+});
 ```
 6. Run your project (`Cmd+R`)
+![](https://raw.githubusercontent.com/shigebeyond/react-native-toast/master/demo.gif)
