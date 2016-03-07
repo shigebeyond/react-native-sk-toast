@@ -1,11 +1,23 @@
 {
-  "name": "react-native-toast",
+  "name": "react-native-sk-toast",
   "version": "1.0.0",
-  "description": "",
+  "description": "A toast api in IOS, just like ToastAndroid in android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shigebeyond/react-native-sk-toast.git"
+  },
+  "keywords": [
+    "react-native",
+    "toast"
+  ],
+  "author": "shige",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shigebeyond/react-native-sk-toast/issues"
+  },
+  "homepage": "https://github.com/shigebeyond/react-native-sk-toast#readme"
 }
